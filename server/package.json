@@ -1,0 +1,1 @@
+{"name":"company-api-server","version":"1.0.0","type":"module","main":"server.js","scripts":{"dev":"node --env-file=.env server.js","seed":"node --env-file=.env seed/seed.js"},"dependencies":{"cors":"^2.8.5","dotenv":"^16.6.1","express":"^4.21.2","install":"^0.13.0","mongodb":"^6.18.0","mongoose":"^8.18.0","morgan":"^1.10.0"}}
