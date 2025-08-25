@@ -1,5 +1,5 @@
-const BASE =
-  import.meta.env.VITE_API_BASE || "https://companies-api-development-86vm.onrender.com";
+// api.js
+const BASE = import.meta.env.VITE_API_BASE;
 
 /**
  * Fetch companies from backend with optional filters
