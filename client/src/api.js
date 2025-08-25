@@ -1,5 +1,5 @@
-// api.js
-const BASE = import.meta.env.VITE_API_BASE;
+const BASE =
+  import.meta.env.VITE_API_BASE || "http://localhost:4000/api";
 
 /**
  * Fetch companies from backend with optional filters
